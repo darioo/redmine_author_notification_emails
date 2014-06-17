@@ -74,8 +74,8 @@ module AuthorNotificationEmails
   end
 end
 
-require 'dispatcher'
-Dispatcher.to_prepare :redmine_author_notification_emails do
+# require 'dispatcher'
+# Dispatcher.to_prepare :redmine_author_notification_emails do
   require_dependency 'mailer'
   Mailer.send(:include,  AuthorNotificationEmails::Patches::MailerPatch)
-end
+#end
