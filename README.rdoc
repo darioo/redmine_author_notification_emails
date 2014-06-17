@@ -8,6 +8,6 @@
  
 *Installation*
 
-*copy to plugin folder
-*restart redmine
+* copy to plugin folder
+* restart redmine
 
